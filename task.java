@@ -1,4 +1,5 @@
 import java.lang.Math;
+import java.util.Scanner;
 
 public class task {
 	// sum of odd and even placed digits
@@ -61,6 +62,17 @@ public class task {
 			return true;
 		}
 		return false;
+	}
+
+	// calculate the GCD of two numbers
+	public static int GCD(int i, int j) {
+		int ans = 1;
+		for (int d = 1; d <= Integer.min(i, j); d++) {
+			if (i % d == 0 && j % d == 0) {
+				ans = d;
+			}
+		}
+		return ans;
 	}
 
 	public static void main(String args[]) {
