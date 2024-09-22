@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class OddEven {
   public static void oddEvenRule(int n) {
@@ -22,18 +22,18 @@ public class OddEven {
   }
 
   public static void main(String args[]) {
-    Scanner sc = new Scanner(System.in);
-    int N = sc.nextInt();
-    int[] cars = new int[N];
+    // Scanner sc = new Scanner(System.in);
+    // int N = sc.nextInt();
+    // int[] cars = new int[N];
 
-    for (int i = 0; i < cars.length; i++) {
-      cars[i] = sc.nextInt();
+    // for (int i = 0; i < cars.length; i++) {
+    // cars[i] = sc.nextInt();
 
-    }
-    for (int i = 0; i < cars.length; i++) {
-      oddEvenRule(cars[i]);
-      System.out.println();
-    }
+    // }
+    // for (int i = 0; i < cars.length; i++) {
+    // oddEvenRule(cars[i]);
+    // System.out.println();
+    // }
 
   }
 }

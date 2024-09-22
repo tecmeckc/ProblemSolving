@@ -38,6 +38,7 @@ public class task {
 
 			++count;
 			n /= 10;
+
 		}
 		return count;
 
