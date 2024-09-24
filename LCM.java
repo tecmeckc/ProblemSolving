@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class LCM {
   // function to print LCM of two numbers
@@ -15,9 +15,9 @@ public class LCM {
   }
 
   public static void main(String args[]) {
-    Scanner sc = new Scanner(System.in);
-    int i = sc.nextInt();
-    int j = sc.nextInt();
-    System.out.println(LCMofij(i, j));
+    // Scanner sc = new Scanner(System.in);
+    // int i = sc.nextInt();
+    // int j = sc.nextInt();
+    // System.out.println(LCMofij(i, j));
   }
 }
