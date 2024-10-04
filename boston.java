@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class boston {
   public static int bostonNumber(int n) {
@@ -26,7 +26,7 @@ public class boston {
     if (copy != 1) {
       while (copy > 0) {
         int copyd = copy % 10;
-        primeSum += copy;
+        primeSum += copyd;
         copy /= 10;
       }
 
@@ -40,9 +40,9 @@ public class boston {
   }
 
   public static void main(String args[]) {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    System.out.println(bostonNumber(n));
+    // Scanner sc = new Scanner(System.in);
+    // int n = sc.nextInt();
+    // System.out.println(bostonNumber(n));
 
   }
 }

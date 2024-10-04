@@ -5,6 +5,7 @@ public class pArmstrong {
     int count = 0;
     while (n > 0) {
       int lastdigit = n % 10;
+      
 
       ++count;
       n /= 10;
