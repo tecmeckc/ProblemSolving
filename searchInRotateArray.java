@@ -9,8 +9,10 @@ public class searchInRotateArray {
       // checking if the left side is sorted
       if (arr[low] <= arr[mid]) {
         if (arr[low] <= target && target <= arr[mid]) {
+          // move to left side and search for target in the sorted side
           high = mid - 1;
         } else {
+
           low = mid + 1;
         }
       }
@@ -18,6 +20,7 @@ public class searchInRotateArray {
       // index
       else {
         if (arr[mid] <= target && target <= arr[high]) {
+          // move to right side and search the element in the sorted side
           low = mid + 1;
         } else {
           high = mid - 1;

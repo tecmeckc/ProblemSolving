@@ -1,5 +1,5 @@
 import java.lang.Math;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class task {
 	// sum of odd and even placed digits
@@ -36,7 +36,7 @@ public class task {
 		int count = 0;
 		while (n > 0) {
 			int lastdigit = n % 10;
-
+			System.out.println(lastdigit);
 			++count;
 			n /= 10;
 
